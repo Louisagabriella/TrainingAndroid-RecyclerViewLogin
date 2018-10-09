@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="130dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="#0217af"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:text="LOUISA GABRIELLA" />
+
+            <TextView
+                android:id="@+id/textViewNomer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="#83c2ef"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:text="#025548910" />
+
+            <TextView
+                android:id="@+id/textViewDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewAddress"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:textSize="10dp"
+                tools:text="Selasa,  14 July 2018" />
+
+            <TextView
+                android:id="@+id/textViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textViewAddress"
+                android:layout_marginTop="10dp"
+                android:background="#75a3cf"
+                android:ellipsize="end"
+                android:textColor="#FFF"
+                android:textSize="10dp"
+                tools:text="4371" />
+
+            <TextView
+                android:id="@+id/textViewAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewName"
+                android:layout_marginTop="8dp"
+                android:textSize="14dp"
+                tools:text="JL. SUDIRMAN BARU" />
+
+            <TextView
+                android:id="@+id/textViewFinishDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewDate"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:background="#faf6f6"
+                android:textColor="#f4ad93"
+                android:textSize="10dp"
+                tools:text="12 Jan 2018" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
